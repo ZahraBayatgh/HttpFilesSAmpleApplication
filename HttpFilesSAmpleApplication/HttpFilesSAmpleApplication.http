@@ -1,6 +1,13 @@
-@HttpFilesSAmpleApplication_HostAddress = http://localhost:5143
+@HttpFilesSAmpleApplication_HostAddress = https://localhost:7188
 
 GET {{HttpFilesSAmpleApplication_HostAddress}}/weatherforecast/
 Accept: application/json
+
+###
+
+POST {{HttpFilesSAmpleApplication_HostAddress}}/api/values
+Content-Type: application/json
+
+"Test"
 
 ###
